@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;  
+    font-family:"Nimbus Sans L";
+    box-sizing: border-box;
+} 
+html , body{
+    width: 100%; 
+    height: 100%; 
+} 
+#main{
+    width: 100%;
+} 
+#nav{  
+    position: relative;
+    padding: 3vw 10vw;  
+    display: flex; 
+    justify-content: space-between; 
+} 
+#nav a{
+    color :black; 
+    text-decoration: none; 
+    font-size: 12px; 
+    font-weight: 800;
+} 
+#nleft{
+    display: flex; 
+    gap: 30px;
+} 
+#nav #centeratag{
+ position: obsolute; 
+ top: 50%;  
+ font-size: 14px;
+ left: 50%; 
+ transform: translate(-50%,-50%);
+ }  
+ #hero{
+    width: 100%; 
+    justify-items: center;
+    margin-top: 15vw; 
+    padding: 0 10vw; 
+    display: flex; 
+    justify-content: space-between;
+ }  
+ #sustain{
+    width: 10vw;
+ } 
+ #sustain p{ 
+    font-weight: 800; 
+    opacity: 0.5;
+    font-size: 12px; 
+    margin: 10px 0; 
+    text-transform: capitalize;
+ }
+ #sustain #susimagewrapper{
+   position:  relative; 
+   overflow: hidden;
+    width: 100%; 
+    height: 15vw; 
+ }  
+ #susimagewrapper img{
+   position: absolute; 
+   top: 40%; 
+   left: 50%; 
+   transform: translate(-50%,-50%);
+    Width:140%; 
+  height: 140%; 
+  object-fit: cover;
+ }  
+ #visit{
+    display: flex; 
+    gap: 10px; 
+    align-items: center;
+ }
+ #ephemeral{ 
+    position: relative;
+  width: 30vw; 
+  min-height: 42vw; 
+ }   
+
+ #ephemeral h1{ 
+    font-size: 6vw; 
+    font-weight: 400; 
+    letter-spacing: -0.4px; 
+    line-height: 1; 
+ }  
+ #ephemeral p{   
+    margin-top: 30px;
+    width: 40%; 
+    font-size: 1.3vw; 
+    line-height: 1.3;
+    letter-spacing: -0.07vw;
+ }
+ #ephemeral #headings{ 
+    top: -20%; 
+    left: -20%;
+   position: absolute; 
+ } 
+ #ephemeral img{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+ }
+ #circlev{
+    display: flex; 
+    justify-content: center;
+    align-items: center;   
+    border: 1px solid #5e5e5e;
+    border-radius: 50%;
+    width: 3vw; 
+    height: 3vw; 
+ } 
+ #circlev i{
+    color: #5e5e5e;
+ } 
+ #visit h3{ 
+    font-weight: 400;
+    color: #5e5e5e;
+ } 
+#motive { 
+    display: flex; 
+    justify-content: space-between;
+    padding: 3vw 10vw; 
+    margin-top: 7vw;
+}  
+#motive p{  
+    line-height: 1.7;
+    letter-spacing: -.12vw;
+    position: relative; 
+    right: 0; 
+    width: 85%;
+    text-align: right;
+    font-size: 2.1vw;
+}
+#motive span{ 
+    display: inline-block;
+    border-radius: 100px; 
+    margin: 0 13px;
+    margin-bottom: -12.5px;
+} 
+#onespan{
+    width: 80px; 
+    height: 50px; 
+    background-image: url(./images/bluegirl.jpg); 
+    background-size: cover; 
+    background-position: 0% 60%;
+} 
+#twospan{
+    width: 130px; 
+    height: 60px; 
+    background-image: url(./images/shaljam.jpg); 
+    background-size: cover; 
+    background-position: 0% 48%;
+} 
+#threespan{
+    width: 80px; 
+    height: 50px; 
+    background-image: url(./images/grass.jpg); 
+    background-size: cover; 
+    background-position: center;
+} 
+#pictures{ 
+    margin-top: 8vw;
+    padding: 3vw;
+    padding-left: 14vw;  
+    padding-right: 12vw; 
+    display: flex; 
+    justify-content: space-between;
+} 
+#firstpic{
+    width: 17vw;
+} 
+#secondpic{ 
+    display: flex;
+    width: 25vw; 
+    flex-direction: column; 
+    align-items: end;
+}
+#firstpic #picimg1{ 
+    width: 100%;
+    height: 24vw; 
+    margin-bottom: 1vw;
+    background-color: red;
+} 
+#firstpic h1{
+    letter-spacing: -.1vw; 
+    font-weight: 100; 
+    font-size: 2vw;
+}
+#firstpic p{
+    opacity: 0.8;
+    font-size: 14px; 
+    margin-top: 10px; 
+} 
+#picimg1 img{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+} 
+
+
+#secondpic p{
+    opacity: 0.8;
+    font-size: 14px; 
+    margin-top: 10px; 
+    text-align: right;
+}
+#Secondpic #picimg2{ 
+    width: 100%;
+    height: 37vw; 
+    margin-bottom: 1vw;
+    background-color: red;
+}  
+#secondpic h1{
+    letter-spacing: -.07vw; 
+    line-height: 1;
+    font-weight: 100; 
+    font-size: 2vw;
+} 
+#picimg2 img{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+}

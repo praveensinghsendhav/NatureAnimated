@@ -17,7 +17,8 @@ html , body{
     display: flex; 
     justify-content: space-between; 
 } 
-#nav a{
+#nav a{ 
+    display: inline-block;
     color :black; 
     text-decoration: none; 
     font-size: 12px; 
@@ -59,12 +60,8 @@ html , body{
     height: 15vw; 
  }  
  #susimagewrapper img{
-   position: absolute; 
-   top: 40%; 
-   left: 50%; 
-   transform: translate(-50%,-50%);
-    Width:140%; 
-  height: 140%; 
+    Width:100%; 
+  height: 100%; 
   object-fit: cover;
  }  
  #visit{
@@ -180,7 +177,6 @@ html , body{
     width: 100%;
     height: 24vw; 
     margin-bottom: 1vw;
-    background-color: red;
 } 
 #firstpic h1{
     letter-spacing: -.1vw; 
@@ -209,7 +205,7 @@ html , body{
     width: 100%;
     height: 37vw; 
     margin-bottom: 1vw;
-    background-color: red;
+    
 }  
 #secondpic h1{
     letter-spacing: -.07vw; 
@@ -231,7 +227,6 @@ html , body{
 #bimg{
     width: 65%; 
     height: 60vh;
-    background-color: rebeccapurple;
 } 
 #bimg img{
     width: 100%; 
@@ -267,7 +262,7 @@ html , body{
 } 
 #future video{
     width: 100%; 
-    opacity: 1;
+    opacity: 0;
     position: absolute; 
     left: 50%; 
     top: 50%; 

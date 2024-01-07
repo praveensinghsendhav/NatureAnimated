@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> 
+    <title>Document</title>  
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+    rel="stylesheet"/>
     <link rel="stylesheet" href="style.css">  
     <link href="https://fonts.cdnfonts.com/css/nimbus-sans-l" rel="stylesheet">
 </head>
@@ -16,21 +17,23 @@
         <div id="home">
         <div id="nav">
             <div id="nleft"> 
-                <a href="#">Home</a><a href="#">Pricing</a><a href="#">Products</a>
+                <a class="nlink" href="#">Home</a>
+                <a class="nlink" href="#">Pricing</a>
+                <a class="nlink" href="#">Products</a>
             </div>   
-            <a id ="centeratag" href="#">Praveen</a>
-            <div id="nright"><a href="">Our Journey</a></div>
+            <a class="nlink" id ="centeratag" href="#">Praveen</a>
+            <div id="nright"><a class="nlink" href="">Our Journey</a></div>
         </div>  
         <div id="hero">
-            <div id="sustain">
+            <div class ="anim2" id="sustain">
                 <h5>01.</h5> 
                 <h2>Sustainability.</h2> 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse.</p>
-                <div id="susimagewrapper">
+                <div class="imgeff" id="susimagewrapper">
                    <img src="./images/pinkgreenplant.jpg" alt="">
                 </div>
             </div> 
-            <div id="ephemeral">
+            <div class ="anim2" id="ephemeral">
              <div id="headings">
                 <h1>Ephemeral</h1> 
                 <h1>Equilibrium.</h1>
@@ -40,14 +43,15 @@
              <p>Commited to Sustainability and Eco-friendly choice for a better tomorrow </p>
             </div> 
         </div> 
-            <div id="visit">
+            <div class ="anim2" id="visit">
                 <div id="circlev"> 
                     <i class="ri-arrow-down-line"></i>
                 </div> 
                 <h3>Visit our gallery</h3>
             </div>
         </div> 
-        <div id="motive">
+    </div> 
+    <div id="motive">
         <h3>Our Motive</h3> 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Omnis expedita aperiam 
             itaque earum. Facilis at modi<span id ="onespan"></span>impedit repudiandae consequuntur, culpa dolore vel? 
@@ -55,14 +59,14 @@
         </div>
         <div id="pictures"> 
             <div id="firstpic"> 
-                <div id="picimg1">
+                <div class="imgeff" id="picimg1">
                     <img src="./images/sea.jpg" alt="">
                 </div>
             <h1>Synergy.</h1> 
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
             </div>  
             <div id="secondpic"> 
-                <div id="picimg2">
+                <div class="imgeff" id="picimg2">
                     <img src="./images/cloud.jpg" alt="">
                 </div>
             <h1>Harmony.</h1> 
@@ -71,7 +75,8 @@
         </div> 
         <div id="banner">
             <div id="bimg">
-                <img src="./images/bottle.jpg" alt="">
+                <img src="./images/bottle.jpg" alt=""> 
+                <img src="./images/bottle2.jpg" alt="">
             </div> 
             <div id="btxt">
                 <h1>Biodegradable</h1> 
@@ -86,8 +91,20 @@
                 <button>Join the Movement</button>
             </div>
         </div>
-    </div>
     </div> 
-    <script src="script.js"></script>
+    <!--  Gsap is needed for Basic Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+<!-- Scroll Trigger is needed for Scroll Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<!-- Three.js is needed for 3d Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+<!-- ControlKit is needed for Debug Panel -->
+<script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+    <script src="script.js"></script> 
 </body>
 </html>
